@@ -1,0 +1,84 @@
+
+  /* Form container styling */
+  .form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    height: 400px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #4A148C;
+    font-size: 24px;
+    position: relative;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px 40px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .form-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+  p a {
+    text-decoration: none;
+    color: #4A148C;
+    font-weight: bold;
+  }
+  
+  button {
+    width: 45%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  button:first-child {
+    background-color: #ddd;
+    color: #666;
+  }
+  
+  button:last-child {
+    background-color: #4A148C;
+    color: #fff;
+  }
+  .navbar-toggler-icon{
+    margin-left: 90%;
+  }
+  
+  button:last-child:hover {
+    background-color: #3b0d70;
+  }
+  @media (max-width: 880px) {
+    .form{
+        width: 100%;
+        max-width: 880px;
+  }
+  
+}
+
+
+  
